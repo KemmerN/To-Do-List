@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My To-Do List</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+
+<body class="containerx">
+
+    
+        <header class="logo">
+            <!--
+            <a href="https://google.de" target ="_blank">
+                <img class ="logo" src="TODOicon.png" alt="TO DO Liste" width="200" height="200">
+            </a>
+            -->
+            <h2 class="headline">DID IT!</h2>
+            <br>
+            <h4>Set your To-Do's for the day</h4>
+        </header>
+        
+    <div class = "container">
+        <div class="main">
+            <form>
+                <input type="text" placeholder="New Task...">
+                <button type="submit"><i class="fas fa-plus-square"></i></button>
+            </form>
+        </div>
+
+        <div class="todoList">
+            <ul>
+
+            </ul>
+            <a class="clearAll" id="clearAll">Clear All</a>
+        </div>
+    </div>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
