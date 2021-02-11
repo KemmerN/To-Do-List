@@ -23,13 +23,15 @@
             <h2 class="headline">DID IT!</h2>
             <br>
             <h4>Set your To-Do's for the day</h4>
+            <br>
+            <h4>You have completed <span id="displayCount">0</span> tasks. Keep going!</h4>
         </header>
         
     <div class = "container">
         <div class="main">
             <form>
                 <input type="text" placeholder="New Task...">
-                <button type="submit"><i class="fas fa-plus-square"></i></button>
+                <button type="submit" id="countButton"><i class="fas fa-plus-square"></i></button>
             </form>
         </div>
 
@@ -41,5 +43,6 @@
         </div>
     </div>
     <script type="text/javascript" src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/mathusummut/confetti.js/confetti.min.js"></script>
 </body>
 </html>
